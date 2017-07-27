@@ -11,7 +11,7 @@ body {
   font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   line-height: 1.6;
   letter-spacing: 0.1em;
-  background-color: #fdfcf6; }
+  background-color: #ffefe0; }
 
 
 /* Align
@@ -45,10 +45,7 @@ header .top-image {
 }
 @media (max-width: 768px) {
 header .top-image {
-  background-image: url("../images/tableaux.jpeg");
   height: 250px;
-  width: 100%;
-  background-position: center center;
 }
 }
   /* Header
@@ -67,7 +64,7 @@ section {
     
     
 #article {
-  background-color: white; }
+  background-color: #fffcf9; }
   
   #article .container {
     display: -webkit-flex;
@@ -79,12 +76,14 @@ section {
     
 #article .text-box {
     width: 33.33333%; 
-    margin: 0 10px;  }
+    margin: 10px; 
+    background-color: #808080;}
 
 @media (max-width: 768px) {    
 #article .text-box {
     width: 80%; 
-    margin:auto;  }
+    margin:auto; 
+    margin-bottom:20px;}
 }
 
 @media (max-width: 768px) {
@@ -119,7 +118,6 @@ section {
     text-align: center;
     font-size:1.5em;
     font-weight:bold;
-    background-color: #808080;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
